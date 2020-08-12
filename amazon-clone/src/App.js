@@ -6,6 +6,9 @@ import {
   Route
 } from "react-router-dom";
 import Header from './Header';
+import Home from './Home';
+
+
 
 function App() {
   return (
@@ -14,6 +17,7 @@ function App() {
         <Switch>
           {/* localhost.com/checkout */}
           <Route path="/checkout">
+            <Header/>
             <h1>Checkout</h1>
           </Route>
           {/* localhost.com/login */}
@@ -23,7 +27,7 @@ function App() {
           {/* Defult route: localhost.com/ */}
           <Route path="/">
             <Header/>
-            <h1>Home Page</h1>
+            <Home/>
           </Route>
         </Switch>
       </div>
