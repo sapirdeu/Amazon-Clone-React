@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import {Link} from "react-router-dom";
 import SearchIcon from '@material-ui/icons/Search';
+import ShoppindBasketIcon from '@material-ui/icons/ShoppingBasket';
 
 function Header() {
     return (
@@ -19,7 +20,40 @@ function Header() {
             
 
             {/* 3 links */}
+            <div className="header__nav">
+                <Link to="/login" className="header__link">
+                    <div className="header__option">
+                        <span className="header__optionLineOne">Hello Sapir</span>
+                        <span className="header__optionLineTwo">Sign In</span>
+                    </div>
+                </Link>
+
+                <Link to="/" className="header__link">
+                    <div className="header__option">
+                        <span className="header__optionLineOne">Returns</span>
+                        <span className="header__optionLineTwo">& Orders</span>
+                    </div>
+                </Link>
+
+                <Link to="/" className="header__link">
+                    <div className="header__option">
+                        <span className="header__optionLineOne">Your</span>
+                        <span className="header__optionLineTwo">Prime</span>
+                    </div>
+                </Link>
+  
+            </div>
+
             {/* Basket icon with number */}
+            <Link to="/checkout"className="header__link">
+                    <div className="header__optionBasket">
+                        {/* Shopping basket icon */}
+                        <ShoppindBasketIcon/>
+                        {/* Number of items in the basket */}
+                        <span className="header__optionLineTwo header__basketCount">0</span>
+                    </div>
+            </Link>
+
         </nav>
     )
 }
