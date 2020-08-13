@@ -8,19 +8,20 @@ function Home() {
             <img className="home__image" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_45M_v2_1x._CB432458380_.jpg" alt=""/>
 
             <div className="home__row">
+                
                 <Product 
-                    id="12321342"
-                    title="The Lean Startup: How Constant Innovation Creates Radically Successful Business Paperback"
-                    price={11.96}
-                    rating={5}
-                    image="https://images-na.ssl-images-amazon.com/images/I/41Ag4WE7uyL._SX324_BO1,204,203,200_.jpg"
+                    id="12321348"
+                    title="Redragon M602 RGB Wired Gaming Mouse RGB Spectrum Backlit Ergonomic Mouse Griffin Programmable with 7 Backlight"
+                    price={21.99}
+                    rating={4}
+                    image="https://images-na.ssl-images-amazon.com/images/I/61MI2KPnKgL._AC_SL1500_.jpg"
                 />
                 <Product 
-                    id="12321343"
-                    title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-                    price={239}
+                    id="12321349"
+                    title="ONIKUMA PS4 Headset -Gaming Headset Xbox one Headset Gaming Headphone with Surround Sound, RGB LED Light & Noise Canceling Microphone for PS4"
+                    price={24.99}
                     rating={4}
-                    image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SL1500_.jpg"
+                    image="https://images-na.ssl-images-amazon.com/images/I/71wbtbhgPbL._AC_SL1500_.jpg"
                 />
             </div>
             <div className="home__row">
@@ -54,6 +55,22 @@ function Home() {
                     price={1094.98}
                     rating={4}
                     image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SL1000_.jpg"
+                />
+            </div>
+            <div className="home__row">
+            <Product 
+                    id="12321342"
+                    title="The Lean Startup: How Constant Innovation Creates Radically Successful Business Paperback"
+                    price={11.96}
+                    rating={5}
+                    image="https://images-na.ssl-images-amazon.com/images/I/41Ag4WE7uyL._SX324_BO1,204,203,200_.jpg"
+                />
+                <Product 
+                    id="12321343"
+                    title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+                    price={239}
+                    rating={4}
+                    image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SL1500_.jpg"
                 />
             </div>
         </div>
