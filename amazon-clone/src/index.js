@@ -8,7 +8,6 @@ import reducer, { initialState } from './Reducer';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App/> */}
     <StateProvider initialState={initialState} reducer={reducer}>
       <App/>
     </StateProvider>
