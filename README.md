@@ -1,1 +1,3 @@
 # Amazon-clone
+
+![](amazonGIF.gif)
