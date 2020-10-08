@@ -6,8 +6,9 @@ Live Demo 👉 https://clone-react-5ebc5.web.app/
 
 ### How to get Started!
 To run the app:
-1. clone it to your computer
+1. Clone it to your computer
 2. Open a new terminal
-3. Run `npm install`
-4. Run `npm start`
-5. Go to the new window that opens in Chrome at http://localhost:3000/ and make some fun! 😊
+4. Run `cd .\Amazon-Clone-React\amazon-clone\`
+5. Run `npm install`
+6. Run `npm start`
+7. Go to the new window that opens in Chrome at http://localhost:3000/ and make some fun! 😊
